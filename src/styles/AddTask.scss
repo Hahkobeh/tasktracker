@@ -1,0 +1,10 @@
+@use 'src/styles/Colours';
+.add-task{
+    background-color: Colours.$item;
+    border-radius: 15px;
+    margin: 10px;
+
+    label{
+        margin: 20px;
+    }
+}

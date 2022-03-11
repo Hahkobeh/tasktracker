@@ -1,0 +1,26 @@
+@use 'src/styles/Colours';
+.task{
+    background: Colours.$item;
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+
+    margin: 10px 0;
+
+}
+
+.task-info{
+
+    text-align: left;
+    margin: auto 10px;
+    display: inline-block;
+    width: 80%;
+
+}
+
+.button{
+    margin: 10px;
+    float: right;
+    padding: 1%;
+
+}
